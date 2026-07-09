@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pengaturan - Smart Business Cloud</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Smart Business Cloud</h1>
+
+<p>Pengaturan Aplikasi</p>
+
+</header>
+
+<nav>
+
+<a href="dashboard.html">Dashboard</a>
+
+<a href="products.html">Produk</a>
+
+<a href="sales.html">Penjualan</a>
+
+<a href="customers.html">Pelanggan</a>
+
+<a href="reports.html">Laporan</a>
+
+<a href="ai.html">AI Assistant</a>
+
+<a href="settings.html">Pengaturan</a>
+
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Profil Pengguna</h2>
+
+<label>Nama</label>
+
+<input
+type="text"
+id="fullname"
+placeholder="Nama Lengkap">
+
+<label>Email</label>
+
+<input
+type="email"
+id="email"
+placeholder="Email">
+
+<button onclick="simpanProfil()">
+
+Simpan Profil
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>Keamanan</h2>
+
+<label>Password Baru</label>
+
+<input
+type="password"
+id="password"
+placeholder="Password Baru">
+
+<label>Konfirmasi Password</label>
+
+<input
+type="password"
+id="confirm"
+placeholder="Konfirmasi Password">
+
+<button onclick="ubahPassword()">
+
+Ubah Password
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>Tampilan</h2>
+
+<label>
+
+<input type="checkbox">
+
+Mode Gelap
+
+</label>
+
+<br><br>
+
+<label>
+
+<input type="checkbox">
+
+Notifikasi Email
+
+</label>
+
+<br><br>
+
+<button onclick="simpanPengaturan()">
+
+Simpan Pengaturan
+
+</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

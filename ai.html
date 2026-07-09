@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Assistant - Smart Business Cloud</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Smart Business Cloud</h1>
+
+<p>AI Business Assistant</p>
+
+</header>
+
+<nav>
+
+<a href="dashboard.html">Dashboard</a>
+
+<a href="products.html">Produk</a>
+
+<a href="sales.html">Penjualan</a>
+
+<a href="customers.html">Pelanggan</a>
+
+<a href="reports.html">Laporan</a>
+
+<a href="ai.html">AI Assistant</a>
+
+<a href="settings.html">Pengaturan</a>
+
+</nav>
+
+<div class="container">
+
+<div class="card">
+
+<h2>AI Assistant</h2>
+
+<p>
+Tanyakan apa saja mengenai bisnis Anda.
+</p>
+
+<textarea
+id="prompt"
+rows="8"
+placeholder="Contoh: Berikan analisis penjualan bulan ini..."></textarea>
+
+<br><br>
+
+<button onclick="kirimAI()">
+Kirim Pertanyaan
+</button>
+
+</div>
+
+<div class="card">
+
+<h2>Jawaban AI</h2>
+
+<div id="hasilAI">
+
+Belum ada jawaban.
+
+</div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

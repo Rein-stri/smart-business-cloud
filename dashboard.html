@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard - Smart Business Cloud</title>
+
+<style>
+
+body{
+font-family:Arial,sans-serif;
+margin:0;
+background:#f4f7fb;
+}
+
+header{
+background:#1565C0;
+color:white;
+padding:20px;
+}
+
+.container{
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.15);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:15px;
+}
+
+.box{
+background:#1976D2;
+color:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:#D32F2F;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>Smart Business Cloud Dashboard</h1>
+
+</header>
+
+<div class="container">
+
+<div class="grid">
+
+<div class="box">
+<h2>Penjualan</h2>
+<p>Rp0</p>
+</div>
+
+<div class="box">
+<h2>Pelanggan</h2>
+<p>0</p>
+</div>
+
+<div class="box">
+<h2>Produk</h2>
+<p>0</p>
+</div>
+
+<div class="box">
+<h2>Laporan</h2>
+<p>Siap</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>AI Assistant</h2>
+
+<p>Selamat datang di Smart Business Cloud.</p>
+
+</div>
+
+<button onclick="logout()">Logout</button>
+
+</div>
+
+<script>
+
+function logout(){
+
+window.location.href="/";
+
+}
+
+</script>
+
+</body>
+</html>
